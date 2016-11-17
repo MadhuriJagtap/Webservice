@@ -15,6 +15,7 @@
 		5A9740CE1DDC100D00AD439F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A9740CC1DDC100D00AD439F /* LaunchScreen.storyboard */; };
 		5A9740D91DDC100D00AD439F /* CategoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9740D81DDC100D00AD439F /* CategoryDemoTests.m */; };
 		5A9740E41DDC100D00AD439F /* CategoryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9740E31DDC100D00AD439F /* CategoryDemoUITests.m */; };
+		5A9740F31DDC10F900AD439F /* NSMutableString+CustomString.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9740F21DDC10F900AD439F /* NSMutableString+CustomString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		5A9740DF1DDC100D00AD439F /* CategoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CategoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A9740E31DDC100D00AD439F /* CategoryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryDemoUITests.m; sourceTree = "<group>"; };
 		5A9740E51DDC100D00AD439F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A9740F11DDC10F900AD439F /* NSMutableString+CustomString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableString+CustomString.h"; sourceTree = "<group>"; };
+		5A9740F21DDC10F900AD439F /* NSMutableString+CustomString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableString+CustomString.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				5A9740C21DDC100D00AD439F /* AppDelegate.m */,
 				5A9740C41DDC100D00AD439F /* ViewController.h */,
 				5A9740C51DDC100D00AD439F /* ViewController.m */,
+				5A9740F11DDC10F900AD439F /* NSMutableString+CustomString.h */,
+				5A9740F21DDC10F900AD439F /* NSMutableString+CustomString.m */,
 				5A9740C71DDC100D00AD439F /* Main.storyboard */,
 				5A9740CA1DDC100D00AD439F /* Assets.xcassets */,
 				5A9740CC1DDC100D00AD439F /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A9740F31DDC10F900AD439F /* NSMutableString+CustomString.m in Sources */,
 				5A9740C61DDC100D00AD439F /* ViewController.m in Sources */,
 				5A9740C31DDC100D00AD439F /* AppDelegate.m in Sources */,
 				5A9740C01DDC100D00AD439F /* main.m in Sources */,
